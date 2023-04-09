@@ -42,7 +42,6 @@ const App =() => {
   //);
   return (
     <div>
-      <h2>Krecemoo sa Reactom</h2>
       <NewExpense onAddExpense={addExpenseHandler}/> 
       <Expenses items={expenses}/>
     </div>
